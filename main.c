@@ -1,6 +1,6 @@
 #include <stdio.h>
 void ohms_law() {
-    flaot voltage, resistance , current;
+    float voltage, resistance , current;
     printf("\n--- Ohmsches Gesetz ---\n");
     printf("Geben Sie die Spannung (V) ein: ");
     scanf("%f", &voltage);
