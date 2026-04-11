@@ -13,3 +13,12 @@ void ohms_law() {
         printf("Der Widerstand darf nicht null sein.\n");
     }
 }
+// Leistung brechnen P : 
+// P = U * I
+void power (){
+    float voltage, resistance , current;
+    printf("Leistung Berechnung");
+    pritnf("Spannung  U : \t ")
+        scanf("%f" , &Voltage);
+    
+}
