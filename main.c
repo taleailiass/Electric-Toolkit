@@ -18,7 +18,12 @@ void ohms_law() {
 void power (){
     float voltage, resistance , current;
     printf("Leistung Berechnung");
-    pritnf("Spannung  U : \t ")
+    pritnf("Spannung  U : \t ");
         scanf("%f" , &Voltage);
-    
+    printf("Strom I : \t");
+        scanf("%f", &current);
+    printf("Widerstand R : \t");
+        scanf("%f" , &resistance);
+    power = voltage * current;
+    printf("Leistung P : %f W/n", power);
 }
